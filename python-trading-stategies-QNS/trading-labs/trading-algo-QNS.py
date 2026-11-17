@@ -9,11 +9,74 @@
 # ==================================================
 
 # DAY 01 — VARIABLES, INPUT & OUTPUT
+#---------------------------------------------------------------------------------------------------------------
 
-# Q01. Input a stock price and display it.
 # Q02. Input two prices and display their sum.
-# Q03. Calculate the difference between two prices.
+
+# class Stock:
+#     def __init__(self):
+#         pass
+#     def __str__(self):
+#         return('this addition Perform opeation')
+
+#     def Stock_price(self):
+#         user_stock_price1 = int(input('Enter a Price:'))
+#         user_stock_price2 = int(input('Enter a price1:'))
+
+#         sum = f'Sum of Both Prices{user_stock_price1 + user_stock_price2}'
+#         return(sum)
+
+# Stock_obj = Stock()
+
+# print(Stock_obj.Stock_price())
+#-------------------------------------------------------------------------------------------------------------------------------
+# # Q03. Calculate the difference between two prices.
+# class DiffrencePrices:
+#     def __init__(self):
+#         pass
+
+#     def __str__(self):
+#         return('This Contain diffrence of two prices:')
+
+#     def Diffrence(self):
+#         user_price1 = int(input('Enter a Number:'))
+#         user_price2 = int(input("enter a Number1:"))
+
+#         diffrence_price = (f'Price diffrence Rs:{user_price1-user_price2}')
+#         return(diffrence_price)
+
+# DiffrencePrices_obj  = DiffrencePrices()
+# print(DiffrencePrices_obj.Diffrence())
+
+#--------------------------------------------------------------------------------------------------------------------------------
+
 # Q04. Calculate the average of three prices.
+# class AvgOfThreePrice:
+#     def __init__(self):
+#         pass
+    
+#     def __str__(self):
+#         return('AvgOfThreePrice')
+    
+#     @staticmethod
+#     def avgPrice():
+#         price_list = []
+#         for num in range(3):
+#             user_input = float(input('Enter Prices:'))
+#             if user_input > 0:
+#                 price_list.append(user_input)
+#             else:
+#                 continue
+
+#         avg_price = (sum(price_list) / len(price_list))
+#         return(f'Your Avg Price:{round(avg_price,2)}')
+
+# print(AvgOfThreePrice.avgPrice())
+# AvgOfThreePrice_obj = AvgOfThreePrice()
+# print(AvgOfThreePrice_obj.avgPrice())
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------
 # Q05. Input investment capital and display it.
 # Q06. Calculate 5% of investment capital.
 # Q07. Convert NPR into USD using an exchange rate.
