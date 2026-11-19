@@ -77,8 +77,26 @@
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------
-# Q05. Input investment capital and display it.
+
 # Q06. Calculate 5% of investment capital.
+
+# class Investement:
+#     def __init__(self):
+#         pass
+
+#     def __str__(self):
+#         return ('This contains of calcuate of investemt capital')
+
+#     def invest(self):
+#         user_input_capital = int(input('Enter capital:'))
+#         user_input_persentage = int(input('Enter persentage of capital:'))
+#         result = (user_input_capital * user_input_persentage) / 100
+#         return(f'Your persentage of capital:{result}')
+
+# Investement_obj= Investement()
+
+# print(Investement_obj.invest())
+#-----------------------------------------------------------------------------------------------------------------------------------------
 # Q07. Convert NPR into USD using an exchange rate.
 # Q08. Calculate profit from buying and selling.
 # Q09. Calculate loss from buying and selling.
